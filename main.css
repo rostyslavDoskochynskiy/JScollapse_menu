@@ -1,0 +1,31 @@
+#nav{
+    height: 50px;
+    text-align: center;
+    background-color: steelblue;
+    border-radius: 2px;
+}
+
+.menu-item{
+    position: relative;
+    color: rgba(19, 224, 205, 0.96);;
+    font-size: 20px;
+    font-family: Impact;
+    margin-left: 100px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+.submenu{
+    position: absolute;
+    color: rgba(19, 224, 205, 0.96);
+    font-size: 16px;
+    border-radius: 2px;
+    width: 167px;
+    height: 70px;
+    background-color: steelblue;
+    display: none;
+}
